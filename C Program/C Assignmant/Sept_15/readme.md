@@ -1,6 +1,4 @@
 ## C Program
-### Recursion
-Fact <br>
 1. Sum of n natural no. <br>
 2. Swap by call by value <br>
 3. Swap by call by ref <br>
