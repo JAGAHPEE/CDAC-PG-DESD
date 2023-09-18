@@ -120,46 +120,46 @@ code wherever possible.
 ### Pointers
 1. A C program contains the following declaration
 int x[8]= {10,20,30,40,50,60,70,80};
-● What is the meaning of x?
-● What is the meaning of (x+2)?
-● What is the value of *x?
-● What is the value of (*x+2)?
-● What is the value of *(x+2)?.
+      ● What is the meaning of x?
+      ● What is the meaning of (x+2)?
+      ● What is the value of *x?
+      ● What is the value of (*x+2)?
+      ● What is the value of *(x+2)?.
 2. A C program contains the following declaration
 float table[2][3] = { { 1.1,1.2,1.3},{2.1,2.2,2.3}};
-● What is the meaning of a table?
-● What is the meaning of (table+1)?
-● What is the meaning of *(table+1)?
-● What is the meaning of (*(table+1)+1)?
-● What is the meaning of (*(table)+1)?
-● What is the value of *(*(table+1) +1)?
-● What is the value of *(*(table)+1)?
-● What is the value of *(*(table+1)?
-● What is the value of *(*(table) + 1)+1?
+      ● What is the meaning of a table?
+      ● What is the meaning of (table+1)?
+      ● What is the meaning of *(table+1)?
+      ● What is the meaning of (*(table+1)+1)?
+      ● What is the meaning of (*(table)+1)?
+      ● What is the value of *(*(table+1) +1)?
+      ● What is the value of *(*(table)+1)?
+      ● What is the value of *(*(table+1)?
+      ● What is the value of *(*(table) + 1)+1?
 3. A C program contains the following declaration
 char *color[6] = {“red”, “green”, “blue”, “white”, “black”, “yellow”};
-● What is the meaning of color?
-● What is the meaning of (color+2);
-● What is the value of *color?
-● What is the value of *(color+2)?
-● How do color[5] and *(color + 5) differ?.
+      ● What is the meaning of color?
+      ● What is the meaning of (color+2);
+      ● What is the value of *color?
+      ● What is the value of *(color+2)?
+      ● How do color[5] and *(color + 5) differ?.
 4. Write a program to count the number of ‘e’ in the following array of pointer to the string.
-char * s [ ] = {
-“we will teach you how to “ ;
-“Move a mountain “ ;
-“Level a building “ ;
-“Erase the past “;
-“Make a million “ ;
-}.
+      char * s [ ] = {
+      “we will teach you how to “ ;
+      “Move a mountain “ ;
+      “Level a building “ ;
+      “Erase the past “;
+      “Make a million “ ;
+      }.
 5. Write a function ``replace'' which takes a pointer to a string as a parameter, which replaces
 all spaces in that string by minus signs, and delivers the number of spaces it replaced.
 Thus
-char *cat = "The cat sat";
-n = replace( cat );
-should set
-cat to "The-cat-sat"
-and
-n to 2.
+      char *cat = "The cat sat";
+      n = replace( cat );
+      should set
+      cat to "The-cat-sat"
+      and
+      n to 2.
 ### Strings
 1. Write a program to convert lower case string to upper case string and vice versa.
 2. Write a program to reverse a string using recursive functions
@@ -190,17 +190,17 @@ and all error handling features using pointers.
 members (one int and other char). Print the sizes of structure and union in number of bytes.
 3. Define a structure declaration for each of the following situations. Assume a 16-bit integer
 word
-<tab>1. Define three bit fields, called a, b and c, whose widths are 6-bits, 4-bits and 6-bits,
-respectively
-<tab>2. Declare a structure-type variable v having the composition defined in part (a) above.
-Assign initial values 3, 5 and 7 respectively, to the three bit fields. Are the bit fields
-large enough to accommodate these values?
-<tab>3. What are the largest values that can be assigned to each of the bit fields defined in
-part (a) above?
-<tab>4. Define three bit fields, called a, b and c, whose widths are 8 bits, 6 bits and 5 bits,
-respectively. How will these fields be stored within the computer’s memory?
-<tab>5. Define three bit fields, called a, b and c, whose widths are 8 bits, 6 bits and 5-bits
-respectively. Separate a and b with 2 vacant bits.
+      1. Define three bit fields, called a, b and c, whose widths are 6-bits, 4-bits and 6-bits,
+      respectively
+      2. Declare a structure-type variable v having the composition defined in part (a) above.
+      Assign initial values 3, 5 and 7 respectively, to the three bit fields. Are the bit fields
+      large enough to accommodate these values?
+      3. What are the largest values that can be assigned to each of the bit fields defined in
+      part (a) above?
+      4. Define three bit fields, called a, b and c, whose widths are 8 bits, 6 bits and 5 bits,
+      respectively. How will these fields be stored within the computer’s memory?
+      5. Define three bit fields, called a, b and c, whose widths are 8 bits, 6 bits and 5-bits
+      respectively. Separate a and b with 2 vacant bits.
 4. Develop a program to generate marks sheet of C-DAC, Hyderabad Students (DSSD, DESD
 and DAC courses). Modules are different for each course. Implement this using structures,
 unions, arrays, loops and variables.
