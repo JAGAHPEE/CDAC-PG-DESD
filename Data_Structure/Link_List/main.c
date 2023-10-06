@@ -1,3 +1,4 @@
+/* Owner :- Sandesh Kale  */
 #include <stdio.h>
 #include <stdlib.h>
 struct node
@@ -89,6 +90,7 @@ int main()
 		}	
 	}
 }
+/* Owner :- Sandesh Kale  */
 void insert_Beg(int ele)
 {
 	struct node *temp;
@@ -126,7 +128,7 @@ void insert_End(int ele)
 		current->next = temp;
 	}
 }
-
+/* Owner :- Sandesh Kale  */
 void insert_After(int ele, int s)
 {
 	struct node *current, *temp;
