@@ -1,3 +1,4 @@
+/* Owner :- Sandesh Kale  */
 #include<stdio.h>
 #include"stack_function.h"
 #include<stdlib.h>
