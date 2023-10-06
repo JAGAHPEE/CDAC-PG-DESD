@@ -109,6 +109,7 @@ void insert_Before(int ele,int s)
 	if(start!=NULL)
 	{	
 		current = start;
+  prev = current :
 		while (current!=NULL && current->data!=s)
 		{
 			prev = current;
