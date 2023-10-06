@@ -1,3 +1,4 @@
+/* Owner :- Sandesh Kale  */
 #include<stdio.h>
 #include<stdlib.h>
 struct node
@@ -81,6 +82,7 @@ int deque()
 	}
 	return x;
 }
+/* Owner :- Sandesh Kale  */
 void display()
 {
 	if(!underflow())
