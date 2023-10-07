@@ -20,6 +20,9 @@
  struct node *delete_after(struct node*);
  struct node *delete_list(struct node*);
  struct node *sort_list(struct node*);
+ struct node *reverse_list(struct node*);
+ struct node *traverse_back(struct node*);
+ void back_print(struct node *);
 
  
 int main()
@@ -39,7 +42,9 @@ int main()
 		printf("\nPress 10 to Delete After node");
 		printf("\nPress 11 to Delete list");
 		printf("\nPress 12 to Sort list");
-		printf("\nPress 14 to Exit");
+		printf("\nPress 13 to Reverse List");
+		printf("\nPress 14 to Traverse Back");
+		printf("\nPress 15 to Exit");
 		printf("\nEnter the Options:");
 		scanf("%d",&option);
 		switch (option)
@@ -80,7 +85,13 @@ int main()
 		case 12:
 			start = sort_list(start);
 			break;
+		case 13:
+			start = reverse_list(start);
+			break;
 		case 14:
+			start = traverse_back(start);
+			break;
+		case 15:
 			exit(1);
 			break;
 		default:
@@ -431,4 +442,48 @@ struct node*sort_list(struct node *start)
 		}
 	}
 	return start;
+}
+
+// To Reverse the List
+struct node *reverse_list(struct node *start)
+{
+		struct node *temp,*rev = NULL;
+
+	while(start!=NULL)
+	{
+		temp = start;
+		start = temp->next;
+		temp->next = rev;
+		rev = temp;
+	}
+	return rev;
+}
+
+// Print List in Reverse Order... Assume like Stack
+struct node *traverse_back(struct node *start)
+{
+	struct node *ptr;
+	ptr = start;
+	if(ptr!=NULL)
+	{
+		ptr = start; 
+		back_print(ptr);
+	}
+	else
+	{
+		printf("List is Empty");
+	}
+	return start;
+}
+void back_print(struct node *ptr)
+{
+	if(ptr==NULL)
+	{
+		return ;
+	}
+	else
+	{
+		back_print(ptr->next);
+		printf("%d ",ptr->data);
+	}
 }
