@@ -16,6 +16,9 @@ struct node *insert_after(struct node *);
 struct node *insert_before(struct node *start);
 struct node *delete_beg(struct node *start);
 struct node *delete_after(struct node *start);
+struct node *delete_node(struct node *start);
+struct node *delete_before(struct node *start);
+struct node *display_reverse(struct node *start);
 int main()
 {
     int option;
@@ -27,7 +30,11 @@ int main()
         printf("\nPress 3 to Insert at End");
         printf("\nPress 4 to Insert after the Given Node");
         printf("\nPress 5 to Insert Before the Given Node");
-        printf("\nPress");
+        printf("\nPress 6 to Delete First");
+        printf("\nPress 7 to Delete after a given node");
+        printf("\nPress 8 to Delete Last");
+        printf("\nPress 9 to Delete a given node");
+        printf("\nPress 10 to Display in Reverse Order");
         printf("\nEnter the Options:");
         scanf("%d", &option);
         switch (option)
@@ -52,6 +59,15 @@ int main()
             break;
         case 7:
             start = delete_after(start);
+            break;
+        case 8:
+            start = delete_last(start);
+            break;
+        case 9:
+            start = delete_node(start);
+            break;
+        case 10:
+            start = display_reverse(start);
             break;
         default:
             return 0;
@@ -263,10 +279,11 @@ struct node *delete_after(struct node *start)
                 ptr->next = temp->next;
                 temp->next->prev = ptr;
             }
-            else{
-                ptr->next=NULL;
+            else
+            {
+                ptr->next = NULL;
             }
-                temp->prev = NULL;
+            temp->prev = NULL;
             free(temp);
         }
         else
@@ -277,6 +294,99 @@ struct node *delete_after(struct node *start)
     else
     {
         printf("List is Empty");
+    }
+    return start;
+}
+
+// To Delete a given node
+struct node *delete_node(struct node *start)
+{
+    int s;
+    printf("\nEnter the node to delete: ");
+    scanf("%d", &s);
+    struct node *curr, *temp;
+    curr = start;
+    if (curr != NULL)
+    {
+        while (curr != NULL && curr->data != s)
+        {
+            curr = curr->next;
+        }
+        if (curr != NULL)
+        {
+            if (curr->next != NULL)
+            {
+                curr->next->prev = curr->prev;
+            }
+            if (curr->prev != NULL)
+            {
+                curr->prev->next = curr->next;
+            }
+            else
+            {
+                start = curr;
+            }
+            free(curr);
+        }
+        else
+        {
+            printf("Element Not Found");
+        }
+    }
+    else
+    {
+        printf("\nList is Empty");
+    }
+    return start;
+}
+
+// To Delete last element
+struct node *delete_last(struct node *start)
+{
+    struct node *curr;
+    curr = start;
+    if (curr != NULL)
+    {
+        while (curr->next != NULL)
+        {
+            curr = curr->next;
+        }
+        if (curr->prev != NULL)
+        {
+            curr->prev->next = NULL;
+        }
+        else
+        {
+            start = NULL;
+        }
+        free(curr);
+    }
+    else
+    {
+        printf("\nList is Empty");
+    }
+    return start;
+}
+struct node *display_reverse(struct node *start)
+{
+    struct node *ptr;
+    ptr = start;
+    if (ptr != NULL)
+    {
+        while (ptr->next != NULL)
+        {
+            ptr = ptr->next;
+        }
+        printf("Reverse List: ");
+        while (ptr != NULL)
+        {
+            printf("%d ", ptr->data);
+            ptr = ptr->prev;
+        }
+    }
+    else
+    {
+        printf("List is EMpty");
     }
     return start;
 }
