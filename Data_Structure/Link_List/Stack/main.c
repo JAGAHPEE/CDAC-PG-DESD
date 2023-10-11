@@ -70,8 +70,8 @@ struct node *push(struct node *start)
         }
         ptr->next = new_node;
         new_node->next = NULL;
-        last = new_node;
     }
+    last = new_node;
     return start;
 }
 struct node *display(struct node *start)
@@ -103,18 +103,21 @@ struct node *pop(struct node *start)
         if (ptr->next == NULL)
         {
             ptr = (struct node *)malloc(sizeof(struct node *));
-            ptr  = start;
-            start = start->next;
-            free(ptr);
-        }
-        else{
             ptr = start;
-            while(ptr->next->next!=NULL)
+            start = start->next;
+            last = start;
+            free(ptr);
+            ptr = NULL;
+        }
+        else
+        {
+            ptr = start;
+            while (ptr->next->next != NULL)
             {
                 ptr = ptr->next;
             }
             free(ptr->next);
-            ptr->next=NULL;
+            ptr->next = NULL;
             last = ptr;
         }
     }
