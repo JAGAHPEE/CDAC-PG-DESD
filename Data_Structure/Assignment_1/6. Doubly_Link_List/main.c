@@ -16,8 +16,8 @@ struct node *insert_before(struct node *start);
 struct node *delete_beg(struct node *start);
 struct node *delete_after(struct node *start);
 struct node *delete_last(struct node *start);
-struct node *delete_node(struct node *start);
 struct node *delete_before(struct node *start);
+struct node *delete_node(struct node *start);
 struct node *display_reverse(struct node *start);
 int main()
 {
@@ -34,7 +34,8 @@ int main()
         printf("\nPress 7 to Delete after a given node");
         printf("\nPress 8 to Delete Last");
         printf("\nPress 9 to Delete a given node");
-        printf("\nPress 10 to Display in Reverse Order");
+         printf("\nPress 10 to Delete a given node");
+        printf("\nPress 11 to Display in Reverse Order");
         printf("\nEnter the Options:");
         scanf("%d", &option);
         switch (option)
@@ -67,8 +68,11 @@ int main()
             start = delete_node(start);
             break;
         case 10:
-            start = display_reverse(start);
+            start = delete_before(start);
             break;
+	 case 10:
+	    start = display_reverse(start);
+	    break;
         default:
             return 0;
             break;
@@ -392,6 +396,58 @@ struct node *display_reverse(struct node *start)
     else
     {
         printf("List is EMpty");
+    }
+    return start;
+}
+
+// To delete a node before a given node
+struct node *delete_before(struct node *start)
+{
+    if (start != NULL)
+    {
+        int s;
+        printf("\nEnter the Node after which the node to be deleted: ");
+        scanf("%d", &s);
+        struct node *ptr, *temp;
+        ptr = start;
+        while (ptr != NULL && ptr->data != s)
+        {
+            ptr = ptr->next;
+        }
+        if (ptr->data == s)
+        {
+            if (ptr->prev != NULL)
+            {
+                temp = ptr->prev;
+                temp->next = NULL;
+                if (temp->prev == NULL)
+                {
+                    start = ptr;
+                    start->prev = NULL;
+                }
+                else
+                {
+                    ptr->prev = temp->prev;
+                    temp->prev->next = ptr;
+                    temp->prev = NULL;
+                }
+                printf("\nNode to be Deleted: %d", temp->data);
+                free(temp);
+                temp = NULL;
+            }
+            else
+            {
+                printf("\nNo Previous node is Present");
+            }
+        }
+        else
+        {
+            printf("\nNode not Found");
+        }
+    }
+    else
+    {
+        printf("\nList is Empty");
     }
     return start;
 }
