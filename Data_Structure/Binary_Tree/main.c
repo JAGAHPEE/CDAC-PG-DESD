@@ -26,9 +26,9 @@ int main()
     root = insert(root, 15);
     travserse(root);
     printf("\n");
-    root = delete_node(root, 10);
+    // root = delete_node(root, 10);
     travserse(root);
-    if (search(root, 10) > 0)
+    if (search(root, 11) > 0)
     {
         printf("\nElement Found");
     }
@@ -83,11 +83,13 @@ int search(struct node *root, int num)
     int x;
     if (root == NULL)
     {
-        x=0;
+        x=-1;
+        return x;
     }
     else if (root->data == num)
     {
         x=1;
+        return x;
     }
     else if (root->data > num)
     {
@@ -97,7 +99,7 @@ int search(struct node *root, int num)
     {
         search(root->right, num);
     }
-    return x;
+    // return x;
 }
 int height(struct node *root)
 {
