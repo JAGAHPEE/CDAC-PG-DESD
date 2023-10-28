@@ -5,3 +5,9 @@
 # 5. [Binary Search Tree]()
 # 6. [Sorting Algorithm]()
 # 7. [Assignments]()
+
+
+1. WAP to Implement Doubly Link List with Functions Reverse_print, Insert Beginning, Delete Beg.
+2. WAP to Implement Linked List with Functions Reverse_print, insert_beg, insert_end, delete_beg, delete_node.
+3. WAP for Quick Sort.
+4. WAP for Merge Sort.
