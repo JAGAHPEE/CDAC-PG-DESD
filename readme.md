@@ -8,3 +8,5 @@
 5. Binary Tree
 6. Sorting Algorithms
 ## [Module - 3]() Microcontroller Programming and Interfacing
+1. GPIO
+2. DMA
