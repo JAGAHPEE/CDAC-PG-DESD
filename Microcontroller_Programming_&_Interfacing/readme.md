@@ -1,4 +1,4 @@
-# [GPIO](https://github.com/JAGAHPEE/CDAC-PG-DESD/tree/f21fba042104762be970e165d4dc301b7997ab25/Microcontroller_Programming_%26_Interfacing/GPIO)
+# [GPIO]
   1. WAP to blink on board LED.
   2. WAP to blink onboard LED using USER button.
   3. WAP to blink LED using external switch.
