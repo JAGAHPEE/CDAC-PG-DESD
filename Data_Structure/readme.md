@@ -2,3 +2,5 @@
 # 2. [Queue](https://github.com/JAGAHPEE/CDAC-PG-DESD/tree/50eb131af24632ebbaec9bb8e35d0e3beaa2da3b/Data_Structure/Queue)
 # 3. [Link List](https://github.com/JAGAHPEE/CDAC-PG-DESD/tree/50eb131af24632ebbaec9bb8e35d0e3beaa2da3b/Data_Structure/Link_List)
 # 4. [Doubly_Link_List](/Doubly_Link_List/readme.md)
+# 5. [Binary Search Tree]
+# 6. [Sorting Algorithm]
