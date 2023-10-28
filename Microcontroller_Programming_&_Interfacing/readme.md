@@ -1,4 +1,4 @@
-# [GPIO](CDAC-PG-DESD/Microcontroller_Programming_\&_Interfacing/GPIO)
+# [GPIO](CDAC-PG-DESD/Microcontroller_Programming_/&_Interfacing/GPIO)
   1. WAP to blink on board LED.
   2. WAP to blink onboard LED using USER button.
   3. WAP to blink LED using external switch.
