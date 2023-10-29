@@ -1,3 +1,8 @@
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/
 #include<stdio.h>
 #include"stringlib.h"
 
@@ -101,4 +106,8 @@ return check;
 
 
 
-
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/

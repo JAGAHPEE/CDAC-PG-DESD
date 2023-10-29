@@ -1,3 +1,8 @@
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/
 #include <stdio.h>
 int main()
 {
@@ -42,3 +47,8 @@ int main()
     }
     printf("\niterations: %d",count);
 }
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/

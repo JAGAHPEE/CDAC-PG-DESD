@@ -1,3 +1,8 @@
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/
 /* Question : 1 Implement a stack in C using an array. Write functions
 for push, pop, and display operations. Provide an example of how to
 use the stack.

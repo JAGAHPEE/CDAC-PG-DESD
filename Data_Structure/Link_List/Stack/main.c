@@ -1,3 +1,8 @@
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/
 #include <stdio.h>
 #include <stdlib.h>
 struct node
@@ -127,3 +132,8 @@ struct node *pop(struct node *start)
     }
     return start;
 }
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/

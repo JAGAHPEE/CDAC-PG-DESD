@@ -1,3 +1,5 @@
+//Published by :- Sandesh Kale
+// @github     :- JAGAHPEE
 #include<stdio.h>
 int sum,ss,mul;
 float d;
@@ -21,3 +23,5 @@ d = (float) a/b;
     printf("\n Division is = %f\n",d);
  
 }
+//Published by :- Sandesh Kale
+// @github     :- JAGAHPEE

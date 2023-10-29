@@ -1,3 +1,8 @@
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/
 /* 
 Question 2: Implement a queue in C using a linked list. Write
 functions for enqueue, dequeue, and display operations. Provide an

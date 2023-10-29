@@ -1,3 +1,8 @@
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/
 #include <stdio.h>
 int partition(int arr[], int start, int end)
 {
@@ -14,6 +19,11 @@ int partition(int arr[], int start, int end)
             arr[pindex] = temp;
         }
     }
+    /*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/
     return pindex;
 }
 void quick_sort(int arr[], int start, int end)

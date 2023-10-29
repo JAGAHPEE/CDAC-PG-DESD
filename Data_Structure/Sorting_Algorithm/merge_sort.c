@@ -1,3 +1,8 @@
+/*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/
 #include <stdio.h>
 #define size 100
 void merge(int arr[], int, int, int);
@@ -29,6 +34,11 @@ void sort(int arr[], int low, int high)
         sort(arr, mid + 1, high);
         merge(arr, low, mid, high);
     }
+    /*
+Published by :- Sandesh Kale
+Linkedin :-  https://www.linkedin.com/in/sandesh-s-kale
+@github     :- JAGAHPEE
+*/
 }
 void merge(int arr[], int low, int mid, int high)
 {
