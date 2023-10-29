@@ -7,6 +7,6 @@
 4. Queue
 5. Binary Tree
 6. Sorting Algorithms
-## [Module - 3](../Microcontroller_Programming_&_Interfacing) Microcontroller Programming and Interfacing
+## [Module - 3](/Microcontroller_Programming_&_Interfacing) Microcontroller Programming and Interfacing
 1. GPIO
 2. DMA
