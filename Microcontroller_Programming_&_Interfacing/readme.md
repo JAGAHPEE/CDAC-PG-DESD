@@ -9,4 +9,5 @@
     1. WAP to perform Memory to Peripheral transfer using DMA.<br>
     2. WAP to perform Peripheral to Memory transfer using DMA.<br>
     3. WAP to perform bit banding.<br>
-# 3. [Interrupt](../Microcontroller_Programming_&_Interfacing/Interrupt)
+# 3. [INTERRUPTS](../Microcontroller_Programming_&_Interfacing/Interrupts)
+# 4. [SENSORS](../Microcontroller_Programming_&_Interfacing/Sensors)
