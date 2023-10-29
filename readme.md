@@ -8,7 +8,7 @@
 3. [Link List](../Doubly_Link_List)
 4. [Doubly Link List](../Doubly_Link_List)
 5. [Binary Tree](../Doubly_Link_List)
-6. [Sorting Algorithms](../Doubly_Link_List)
+6. [Sorting Algorithms](../Doubly_Link_List)<br>
 ![](resources/images/STM.png)
 ## [Module - 3](/Microcontroller_Programming_&_Interfacing) Microcontroller Programming and Interfacing
 1. [GPIO](/Microcontroller_Programming_&_Interfacing/GPIO)
