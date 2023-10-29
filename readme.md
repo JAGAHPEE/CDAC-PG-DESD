@@ -8,7 +8,7 @@
 4. Queue
 5. Binary Tree
 6. Sorting Algorithms
-[](resources/images/STM.png)
+![](resources/images/STM.png)
 ## [Module - 3](/Microcontroller_Programming_&_Interfacing) Microcontroller Programming and Interfacing
 1. GPIO
 2. DMA
