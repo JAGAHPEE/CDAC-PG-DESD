@@ -2,7 +2,7 @@
 ![](resources/images/c.png)
 ## [Module - 1](/C_Program) C Programming <br>
 ![](resources/images/DSA.png)
-### [Module - 2](/Data_Structure) Data Structures and Algorithms <br>
+## [Module - 2](/Data_Structure) Data Structures and Algorithms <br>
 ### 1. [Stack](/Data_Structure/Doubly_Link_List)
 ### 2. [Queue](/Data_Structure/Doubly_Link_List)
 ### 3. [Link List](/Data_Structure/Doubly_Link_List)
