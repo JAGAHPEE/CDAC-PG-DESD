@@ -1,4 +1,4 @@
-# 1. [C_Assignment](../C_Program/C_Assignment)
+# 1. [C_Assignment](../C_Program/C_Assignmant)
 # 2. [Function_Types](../C_Program/Function_Types)
 
 1. WAP to perform arithmetic operations using Switch Case. ?
