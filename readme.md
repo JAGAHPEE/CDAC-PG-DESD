@@ -1,5 +1,5 @@
 # CDAC-PG-DESD<br>
-## [Module - 1](/C Program) C Programming <br>
+## [Module - 1](/C_Program) C Programming <br>
 ## [Module - 2](/Data_Structure) Data Structures and Algorithms <br>
 1. Doubly Link List
 2. Link List
