@@ -12,4 +12,4 @@
 ![](resources/images/STM.png)
 ## [Module - 3](/Microcontroller_Programming_&_Interfacing) Microcontroller Programming and Interfacing
 ### 1. [GPIO](/Microcontroller_Programming_&_Interfacing/GPIO)
-### 2. [DMA](/Microcontroller_Programming_&_Interfacing/GPIO)
+### 2. [DMA](/Microcontroller_Programming_&_Interfacing/DMA)
