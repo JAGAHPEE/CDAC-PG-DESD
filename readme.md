@@ -13,4 +13,4 @@
 ## [Module - 3](/Microcontroller_Programming_&_Interfacing) Microcontroller Programming and Interfacing
 ### 1. [GPIO](/Microcontroller_Programming_&_Interfacing/GPIO)
 ### 2. [DMA](/Microcontroller_Programming_&_Interfacing/DMA)
-### 3. [37_in_1_Sensor_kit_Code_for_Arduino](/Microcontroller_Programming_&_Interfacing/37_in_1_Sensor_kit_Code_for_Arduino)
+### 3. [37_in_1_Sensor kit Code for Arduino](/Microcontroller_Programming_&_Interfacing/37_in_1_Sensor_kit_Code_for_Arduino)
