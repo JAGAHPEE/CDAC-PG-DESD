@@ -1,18 +1,8 @@
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2023 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
+  * Published By :- Sandesh Kale
+  * Github	:- github/JAGAHPEE
   ******************************************************************************
   */
 /* USER CODE END Header */
@@ -92,11 +82,6 @@ int main(void)
   /* USER CODE BEGIN 2 */
   SSD1306_Init();
   SSD1306_GotoXY(0, 0);
-// TestAll(10, 1);
-//  ssd1306_write(str, Font_7x10);
-//  SSD1306_GotoXY(0, 30);
-//  ssd1306_write("Sandesh Kale", Font_7x10);
-//  SSD1306_ScrollRight(0, 2);
   SSD1306_Clear();
   SSD1306_DrawBitmap(0, 0, logo,128,64,1);
   SSD1306_UpdateScreen();
