@@ -28,6 +28,7 @@
     4. WAP to Use Sleep Mode and Wake it up by Interface and Display the Internal RTC Time. 
 # 6. [SENSORS](../Microcontroller_Programming_&_Interfacing/Sensors)
     1. WAP to Interface Rotary Sensor and get the Angle of Rotation.
+    2. WAP to Interface Rotary Encoder and get Rotation Speed.
 # 7. [UART_Protocol](../Microcontroller_Programming_&_Interfacing/UART)
     1. WAP to transmit your name onto Serial port with Normal Method.
     2. WAP to transmit your name onto Serial port with Interrupt.
