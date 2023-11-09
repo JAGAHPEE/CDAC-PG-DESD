@@ -28,19 +28,19 @@
     4. WAP to Use Sleep Mode and Wake it up by Interface and Display the Internal RTC Time. 
 # 6. [SENSORS](../Microcontroller_Programming_&_Interfacing/Sensors)
     1. WAP to Interface Rotary Sensor and get the Angle of Rotation.
-# 7. [ARDUINO_SENSORS](../Microcontroller_Programming_&_Interfacing/37_in_1_Sensor_kit_Code_for_Arduino)
-# 8. [UART_Protocol](../Microcontroller_Programming_&_Interfacing/UART)
+//# 7. [ARDUINO_SENSORS](../Microcontroller_Programming_&_Interfacing/37_in_1_Sensor_kit_Code_for_Arduino)
+# 7. [UART_Protocol](../Microcontroller_Programming_&_Interfacing/UART)
     1. WAP to transmit your name onto Serial port with Normal Method.
     2. WAP to transmit your name onto Serial port with Interrupt.
     3. WAP to receive your name from serial port with Normal Method.
     4. WAP to receive your name from Serial port with Interrupt.
     5. WAP to interface two Boards and Transmit and receive data b/w them.
-# 9. [I2C_Protocol](../Microcontroller_Programming_&_Interfacing/I2C)
+# 8. [I2C_Protocol](../Microcontroller_Programming_&_Interfacing/I2C)
     1. WAP to Print your name on OLED Display.
     2. WAP to Display the string on OLED received from UART.
     3. WAP to Print LOGO on OLED Display.
     4. WAP to Display Internal RTC Time on OLED Display.
-# 10. [SPI_Protocol](../Microcontroller_Programming_&_Interfacing/SPI)
+# 9. [SPI_Protocol](../Microcontroller_Programming_&_Interfacing/SPI)
     1. WAP to write a string to spi flash.
     2. WAP to write a string into SPI Flash and OLED at a time. String should be received through UART.
 
