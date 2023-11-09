@@ -11,6 +11,14 @@
 ### 6. [Sorting Algorithms](/Data_Structure/Doubly_Link_List)<br>
 ![](resources/images/STM.png)
 ## [Module - 3](/Microcontroller_Programming_&_Interfacing) Microcontroller Programming and Interfacing
-### 1. [GPIO](/Microcontroller_Programming_&_Interfacing/GPIO)
-### 2. [DMA](/Microcontroller_Programming_&_Interfacing/DMA)
-### 3. [37_in_1_Sensor kit Code for Arduino](/Microcontroller_Programming_&_Interfacing/37_in_1_Sensor_kit_Code_for_Arduino)
+### 1. [GPIO](/Microcontroller_Programming_&_Interfacing/)
+### 2. [DMA](/Microcontroller_Programming_&_Interfacing/)
+### 3. [INTERRUPTS](/Microcontroller_Programming_&_Interfacing/)
+### 4. [ADC](/Microcontroller_Programming_&_Interfacing/)
+### 5. [LOW_POWER_MODES](/Microcontroller_Programming_&_Interfacing/)
+### 6. [SENSORS](/Microcontroller_Programming_&_Interfacing/)
+### 7. [UART_PROTOCOL](/Microcontroller_Programming_&_Interfacing/)
+### 8. [I2C_PROTOCOL](/Microcontroller_Programming_&_Interfacing/)
+### 9. [SPI_PROTOCOL](/Microcontroller_Programming_&_Interfacing/)
+
+
