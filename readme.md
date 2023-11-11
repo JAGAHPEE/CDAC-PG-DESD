@@ -10,7 +10,7 @@
 ### 5. [Binary Tree](/Data_Structure/readme.md)
 ### 6. [Sorting Algorithms](/Data_Structure/readme.md)<br>
 ![](resources/images/STM.png)
-## [Module - 3](/Microcontroller_Programming_&_Interfacing) Microcontroller Programming and Interfacing
+## [Module - 3](/Microcontroller_Programming_&_Interfacing/readme.md) Microcontroller Programming and Interfacing
 ### 1. [GPIO](/Microcontroller_Programming_&_Interfacing/readme.md)
 ### 2. [DMA](/Microcontroller_Programming_&_Interfacing/readme.md)
 ### 3. [INTERRUPTS](/Microcontroller_Programming_&_Interfacing/readme.md)
