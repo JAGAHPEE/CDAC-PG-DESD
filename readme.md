@@ -11,14 +11,14 @@
 ### 6. [Sorting Algorithms](/Data_Structure/Doubly_Link_List)<br>
 ![](resources/images/STM.png)
 ## [Module - 3](/Microcontroller_Programming_&_Interfacing) Microcontroller Programming and Interfacing
-### 1. [GPIO](/Microcontroller_Programming_&_Interfacing/)
-### 2. [DMA](/Microcontroller_Programming_&_Interfacing/)
-### 3. [INTERRUPTS](/Microcontroller_Programming_&_Interfacing/)
-### 4. [ADC](/Microcontroller_Programming_&_Interfacing/)
-### 5. [LOW_POWER_MODES](/Microcontroller_Programming_&_Interfacing/)
-### 6. [SENSORS](/Microcontroller_Programming_&_Interfacing/)
-### 7. [UART_PROTOCOL](/Microcontroller_Programming_&_Interfacing/)
-### 8. [I2C_PROTOCOL](/Microcontroller_Programming_&_Interfacing/)
-### 9. [SPI_PROTOCOL](/Microcontroller_Programming_&_Interfacing/)
+### 1. [GPIO](/Microcontroller_Programming_&_Interfacing/readme.md)
+### 2. [DMA](/Microcontroller_Programming_&_Interfacing/readme.md)
+### 3. [INTERRUPTS](/Microcontroller_Programming_&_Interfacing/readme.md)
+### 4. [ADC](/Microcontroller_Programming_&_Interfacing/readme.md)
+### 5. [LOW_POWER_MODES](/Microcontroller_Programming_&_Interfacing/readme.md)
+### 6. [SENSORS](/Microcontroller_Programming_&_Interfacing/readme.md)
+### 7. [UART_PROTOCOL](/Microcontroller_Programming_&_Interfacing/readme.md)
+### 8. [I2C_PROTOCOL](/Microcontroller_Programming_&_Interfacing/readme.md)
+### 9. [SPI_PROTOCOL](/Microcontroller_Programming_&_Interfacing/readme.md)
 
 
