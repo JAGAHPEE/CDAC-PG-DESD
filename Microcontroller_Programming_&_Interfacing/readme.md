@@ -42,6 +42,6 @@
     3. WAP to Print LOGO on OLED Display.
     4. WAP to Display Internal RTC Time on OLED Display.
 # 9. [SPI_Protocol](../Microcontroller_Programming_&_Interfacing/SPI)
-    1. WAP to write a string to spi flash.
-    2. WAP to write a string into SPI Flash and OLED at a time. String should be received through UART.
+    1. WAP to write a string to spi flash[W25Qxx].
+    2. WAP to write a string into SPI Flash[W25Qxx] and OLED at a time. String should be received through UART.
 
