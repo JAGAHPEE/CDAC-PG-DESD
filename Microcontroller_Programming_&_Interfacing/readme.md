@@ -35,6 +35,7 @@
     3. WAP to receive your name from serial port with Normal Method.
     4. WAP to receive your name from Serial port with Interrupt.
     5. WAP to interface two Boards and Transmit and receive data b/w them.
+    6. WAP to get a valid String from user and convert it into Integer.
 # 8. [I2C_Protocol](../Microcontroller_Programming_&_Interfacing/I2C)
     1. WAP to Print your name on OLED Display.
     2. WAP to Display the string on OLED received from UART.
