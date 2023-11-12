@@ -20,5 +20,5 @@
 ### 7. [UART_PROTOCOL](/Microcontroller_Programming_&_Interfacing/readme.md)
 ### 8. [I2C_PROTOCOL](/Microcontroller_Programming_&_Interfacing/readme.md)
 ### 9. [SPI_PROTOCOL](/Microcontroller_Programming_&_Interfacing/readme.md)
-
+### 10. [TIMERS](/Microcontroller_Programming_&_Interfacing/readme.md)
 
