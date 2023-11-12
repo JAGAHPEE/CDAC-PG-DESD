@@ -46,7 +46,6 @@
     2. WAP to write a string into SPI Flash[W25Qxx] and OLED at a time. String should be received through UART.
 # 10. [TIMERS](../Microcontroller_Programming_&_Interfacing/TIMERS)
     1. WAP to Blink led using Timer. 
-[GO](../Microcontroller_Programming_&_Interfacing/TIMERS/TIMER_BLINK_LED)
     2. WAP to toggle the led after 2 second of Interrupt.
     3. WAP to Interface switch with interrupt to change time delay of Led Toggle(Led Flashing Time).
     4. WAP to generate timer period of 1 second and duty cycle of 60%.
