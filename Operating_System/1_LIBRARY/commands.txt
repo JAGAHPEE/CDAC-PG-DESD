@@ -1,0 +1,13 @@
+// To check Shared library Path
+$ echo $LD_LIBRARY_PATH
+
+// To make shared file
+gcc <output_file.so> <file_name> . . . .  -shared -fPIC
+gcc main.c <shared_file.so>
+
+// To make archieve.a
+ar crv <output_file_name> <file_name> . . . .
+
+// To make shared file
+gcc <output_file.so> <file_name> . . . .  -shared -fPIC
+gcc main.c <shared_file.so>
