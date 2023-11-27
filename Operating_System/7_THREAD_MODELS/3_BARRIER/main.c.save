@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<pthread.h>
+#include<unistd.h.>
+	
+pthread_barrier_t barrier;
+
+
+int main()
+{
+	pthread_t id1,id2,id3,id4;
+	pthread_barrier_init(&barrier,NULL,4)
+	
+	if((pthread_create(&id1,NULL,temp,NULL))&&printf("************************************\n");
+)
+	{
+		printf("Unable to create Thread\n");
+	}
+	
+	
+
+}
