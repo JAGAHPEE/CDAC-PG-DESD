@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+        FILE*fp = fopen("file.txt","w");
+        if(fp == NULL)
+        {
+                printf("Unable to open file");
+                return -1;
+        }
+        char ch;
+        printf("Enter the Name: ");
+        while((ch=getchar())!=EOF)
+        {
+                fputc(ch,fp);
+        }
+        fclose(fp);
+        return 0;
+
+
+
+
+
+}
