@@ -1,0 +1,64 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<sys/stat.h>
+#include<sys/types.h>
+#include<fcntl.h>
+#include<unistd.h>
+#define BUFF 4096
+int main(int argc , char *argv[])
+{
+        char buff[BUFF];
+        // Create named pipe by mkfifo pipe
+        int fds = open("pipe",O_WRONLY);
+        if(-1==fds)
+        {
+                printf("Unable to open file\n");
+                exit(EXIT_FAILURE);
+        }
+        printf("Enter the String to Transmit:");
+        scanf("%[^\n]s",buff);
+        int state = write(fds,buff,strlen(buff));
+        if(state<0)
+        {
+                printf("Unable to Transmit\n");
+                exit(EXIT_FAILURE);
+        }
+        else
+        {
+                printf("Data Sent\n");
+        }
+        close(fds);
+        return 0;
+
+}
+
+//Rec
+
+#include<stdio.h>
+#include<sys/types.h>
+#include<sys/stat.h>
+#include<unistd.h>
+#include<string.h>
+#include<fcntl.h>
+#define BUFF 4096
+int main()
+{
+        char buff[BUFF];
+        int fds = open("pipe",O_RDONLY);
+        read(fds,buff,BUFF);
+        printf("Data Received: ");
+        printf("%s",buff);
+        close(fds);
+        return 0;
+
+}
+
+//makfile
+
+all: send receive
+
+send: main.c
+        gcc -o $@ $^
+receive: rec.c
+        gcc -o $@ $^
