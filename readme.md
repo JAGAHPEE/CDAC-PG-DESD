@@ -28,6 +28,6 @@
 ### 3. [PROCESS](/Operating_System/3_PROCESS/readme.md)
 ### 4. [THREADS](/Operating_System/4_THREADS/readme.md)
 ### 5. [MUTEX](/Operating_System/5_MUTEX/readme.md)
-### 6. [SEMAHPORE](/Operating_System/6_SEMAPHORE/1_Unnammed_Semaphore/reaadme.md)
+### 6. [SEMAHPORE](/Operating_System/6_SEMAPHORE/1_Unnammed_Semaphore/readme.md)
 ### 7. [THREAD_MODELS](/Operating_System/7_THREAD_MODEL)
 ### 8. [IPC](/Operating_System/8_IPC/readme.md)
