@@ -1,5 +1,5 @@
 # Inter Process Communication
-## 1.Unnamed Pipes 
+## 1. Unnamed Pipes 
 ### [a. Implement Unnamed Pipe IPC to write in one process and read in another process using fork().](../8_IPC/1_PIPE)
 
 ### [b. Create Unnamed Pipe and two Process, in P1 write stdio.h library to Pipe and in P2 read the received data and count the no. of occurence of 'S' and Print the count in Terminal.](../8_IPC/1_PIPE/1_Pipe_Char_Count)
