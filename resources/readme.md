@@ -36,30 +36,23 @@
     1. Implement Critical Region using Mutex.
     2. Implemet Critical Region using Recursive mutex.
 # 6. [SEMAPHORE](../Operating_System/6_SEMAPHORE/readme.md)
-    1. WAP to Interface Rotary Sensor and get the Angle of Rotation.
-    2. WAP to Interface Rotary Encoder and get Rotation Speed.
+    1. Implement Binary Semaphore and Increment and Decrement the Count Value.
+    2. Implement Signaling Semaphore and Perform the Addition of Two Number.
+    3. Implement Producer Consumer Problem using Array, Mutex and Semaphore. 
 # 7. [THREAD_MODELS](../Operating_System/7_THREAD_MODELS/readme.md)
-    1. WAP to transmit your name onto Serial port with Normal Method.
-    2. WAP to transmit your name onto Serial port with Interrupt.
-    3. WAP to receive your name from serial port with Normal Method.
-    4. WAP to receive your name from Serial port with Interrupt.
-    5. WAP to interface two Boards and Transmit and receive data b/w them.
-    6. WAP to get a valid String from user and convert it into Integer.
+    1. Create Two Threads and Implement Conditional Variable to Signal the Thread to get executed.
+    2. Create Multiple Threads and Implement RW_lock in it so at the time of write no read will occure.
+    2. Create Multiple Threads and Implement Barrier to signal all the Blocked threads to execute.
 # 8. [8_IPC](../Operating_System/8_IPC/readme.md)
-    1. WAP to Print your name on OLED Display.
-    2. WAP to Display the string on OLED received from UART.
-    3. WAP to Print LOGO on OLED Display.
-    4. WAP to Display Internal RTC Time on OLED Display.
-# 9. [SPI_Protocol](../Microcontroller_Programming_&_Interfacing/SPI)
-    1. WAP to write a string to spi flash[W25Qxx].
-    2. WAP to write a string into SPI Flash[W25Qxx] and OLED at a time. String should be received through UART.
-# 10. [TIMERS](../Microcontroller_Programming_&_Interfacing/TIMERS)
-    1. WAP to Blink led using Timer. 
-    2. WAP to toggle the led after 2 second of Interrupt.
-    3. WAP to Interface switch with interrupt to change time delay of Led Toggle(Led Flashing Time).
-    4. WAP to generate timer period of 1 second and duty cycle of 60%.
-    5. WAP to generate timer period of 2 second and duty cycle of 20%.
-    6. WAP to generate PWM Signal.
-    7. WAP to display time in every 30 second.
-    8. WAP to DIM led using PWM.
+    1. Unnamed Pipes 
+        a. Implement Unnamed Pipe IPC to write in one process and read in another process using fork().
+        b. Create Unnamed Pipe and two Process, in P1 write stdio.h library to Pipe and in P2 read the received data and count the no. of occurence of 'S' and Print the count in Terminal.
+    2. Create Named Pipe (FIFO) and send data between two different Processes send.c receive.c
+    3.  Shared Memory
+        a. Create Shared Memory Region and increment count in one file and read the count in anothre file.
+        b. Implement Shared Memory Region and create Critical Region Using Semaphore,update the value in file send.c and check the updated value in file send.c receive.c.
+    4. Message Queue
+        a. Create a queue and send data from one Independent Process send.c and receive in another receive.c.
+        b. Create a queue and send stdio.h file data by queue in send.c and receive in receive.c and count the occurence of a character in it.
+        
     
