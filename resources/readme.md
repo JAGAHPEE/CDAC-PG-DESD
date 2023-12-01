@@ -20,22 +20,21 @@
     5. Create a copy operations using variable argument char* argv[] and take input/output file name from user.
     6. Rename a file using System Calls.
 # 3. [PROCESS](../Operating_System/3_PROCESS/readme.md)
-    1. WAP to perform Memory to Peripheral transfer using DMA and Interrupt
-    2. WAP to Blink LED till detect logic high.
-    3. WAP to generate two Interrupts and Turn On led from one and Turn OFF from another Interrupt.
-    4. WAP to use Switch to Generate Switch with Internal Pullup.
+    1. Create a Child Process using fork(); system calls.
+    2. Implementation of Zombie Process.
+    3. Implementation of Orphan Process.
+    4. Implementation of EXEC sustem calls to execute a Process or linux utilities like cat ls etc.
 # 4. [THREADS](../Operating_System/4_THREADS/readme.md)
-    1. WAP to DIM led using ADC and DMA.
-    2. WAP to DIM led using ADC Interrupt.
-    3. WAP to DIM led(shifting) using Polling Method.
-    4. WAP to Interface LDR Sensor
-    5. WAP to Interface LDR and Turn on the led with sensor detext less light(street  light).
-    6. ADC Methods.
+    1. Implementation of a Thread using pthread library (pthread_create).
+    2. Implementation of two Thread using pthread library (pthread_create).
+    3. Implementation of three Thread using pthread library (pthread_create) and do Increment and Decrement in while loop.
+    4. Create a Thread and Pass 2 Parameters to the Function.
+    5. Create a Thread and Perfrom Addition operation in it by passing values to the functions.
+    6. Set the attribute of Thread.
+    7. Find the Sum of Numbers till the given value by using inside a Thread and print Sum inside the Main Function.
 # 5. [MUTEX](../Operating_System/5_MUTEX/readme.md)
-    1. WAP to Implement Sleep Mode.
-    2. WAP to Implement StandBy Mode.
-    3. WAP to Implement STOP Mode and Wake up using External Interrupt.
-    4. WAP to Use Sleep Mode and Wake it up by Interface and Display the Internal RTC Time. 
+    1. Implement Critical Region using Mutex.
+    2. Implemet Critical Region using Recursive mutex.
 # 6. [SEMAPHORE](../Operating_System/6_SEMAPHORE/readme.md)
     1. WAP to Interface Rotary Sensor and get the Angle of Rotation.
     2. WAP to Interface Rotary Encoder and get Rotation Speed.
