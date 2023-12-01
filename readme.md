@@ -21,4 +21,13 @@
 ### 8. [I2C_PROTOCOL](/Microcontroller_Programming_&_Interfacing/readme.md)
 ### 9. [SPI_PROTOCOL](/Microcontroller_Programming_&_Interfacing/readme.md)
 ### 10. [TIMERS](/Microcontroller_Programming_&_Interfacing/readme.md)
-
+![](resources/images/OS.png)
+## [Module - 4](/Operating_System/readme.md) Embeded Operating System
+### 1. [LIBRARY](/Operating_System/1_LIBRARY)
+### 2. [SYSTEM_CALLS](/Operating_System/2_SYS_CALLS_FILES)
+### 3. [PROCESS](/Operating_System/3_PROCESS)
+### 4. [THREADS](/Operating_System/4_THREADS)
+### 5. [MUTEX](/Operating_System/5_MUTEX)
+### 6. [SEMAHPORE](/Operating_System/6_SEMAPHORE)
+### 7. [THREAD_MODELS](/Operating_System/7_THREAD_MODEL)
+### 8. [IPC](/Operating_System/8_IPC)
