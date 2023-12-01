@@ -35,7 +35,7 @@
 # 5. [MUTEX](../Operating_System/5_MUTEX/readme.md)
     1. Implement Critical Region using Mutex.
     2. Implemet Critical Region using Recursive mutex.
-# 6. [SEMAPHORE](../Operating_System/6_SEMAPHORE/readme.md)
+# 6. [SEMAPHORE](../Operating_System/6_SEMAPHORE/1_Unnammed_Semaphore/readme.md)
     1. Implement Binary Semaphore and Increment and Decrement the Count Value.
     2. Implement Signaling Semaphore and Perform the Addition of Two Number.
     3. Implement Producer Consumer Problem using Array, Mutex and Semaphore. 
