@@ -1,5 +1,5 @@
 
-# 1. [GPIO](../Operating_System/1_LIBRARY/readme.md)
+# 1. [LIBRARY](../Operating_System/1_LIBRARY/readme.md)
     1. Create a Static Library and Perform Arithmatic Operations.
     2. Create a Dynamic Library (Shared object file) and Perform Arithmatic Operations.
     3. Create a Static Library using Makefile and Perform Arithmatic Operations.
