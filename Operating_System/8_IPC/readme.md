@@ -15,4 +15,4 @@
 ## 4. Message Queue
 #### a. Create a queue and send data from one Independent Process send.c and receive in another receive.c. [GO](../8_IPC/4_MESSAGE_QUEUE/1_Message)
 
-#### b. Create a queue and send stdio.h file data by queue in send.c and receive in receive.c and count the occurence of a character in it] [GO](../8_IPC/4_MESSAGE_QUEUE/2_Count_Char_from_stdio.h)
+#### b. Create a queue and send stdio.h file data by queue in send.c and receive in receive.c and count the occurence of a character in it. [GO](../8_IPC/4_MESSAGE_QUEUE/2_Count_Char_from_stdio.h)
