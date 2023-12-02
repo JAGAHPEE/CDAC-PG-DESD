@@ -31,3 +31,4 @@
 ### 6. [SEMAHPORE](/Operating_System/6_SEMAPHORE/1_Unnammed_Semaphore/readme.md)
 ### 7. [THREAD_MODELS](/Operating_System/7_THREAD_MODEL)
 ### 8. [IPC](/Operating_System/8_IPC/readme.md)
+### 9. [SOCKET](/Operating_System/9_SOCKET/readme.md)
