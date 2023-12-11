@@ -19,9 +19,6 @@ Kill Process : kill -9 -1
 copy the below code to rootfs/etc/network/interfaces
 /*
 
-# interfaces(5) file used by ifup(8) and ifdown(8)	<br>
-# Include files from /etc/network/interfaces.d:	<br>
-source /etc/network/interfaces.d/*	<br>
 auto eth0<br>
 iface eth0 inet static<br>
 	address 192.168.1.100<br>
