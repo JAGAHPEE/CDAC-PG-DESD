@@ -20,9 +20,9 @@ copy the below code to rootfs/etc/network/interfaces<br>
 
 auto eth0<br>
 iface eth0 inet static<br>
-	address 192.168.1.100<br>
-	netmask 255.255.255.0<br>
-	network 192.0.0.0<br>
+</t>address 192.168.1.100<br>
+</t>netmask 255.255.255.0<br>
+</t>network 192.0.0.0<br>
 <br>
 <br>
 
