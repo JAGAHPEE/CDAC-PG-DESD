@@ -29,11 +29,11 @@ auto eth0\
 ## To Connect Raspberrypi with WIFI WPA2 when Raspberrypi is 
 copy the below code to /etc/wpa_supplicant.conf/wpa_supplicant.conf and change the WIFI credentials SSID and Psdkey<br>
 
-country=IN\
+country=IN \
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev\
-network={\
-    ssid="<SSID>"\
-    psk="<PASSWORD>"\
+network={ \
+    ssid="<SSID>" \
+    psk="<PASSWORD>" \
     key_mgmt=WPA-PSK\
     proto=RSN\
     pairwise=CCMP\
