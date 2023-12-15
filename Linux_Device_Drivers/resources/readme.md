@@ -18,26 +18,26 @@ Kill Process : kill -9 -1
 ## To Connect Raspberrypi with ETHERNET 
 copy the below code to rootfs/etc/network/interfaces<br>
 
-auto eth0<br>
-iface eth0 inet static<br>
-<t>address 192.168.1.100<br>
-<t>netmask 255.255.255.0<br>
-<t>network 192.0.0.0<br>
+auto eth0\
+    iface eth0 inet static\
+    address 192.168.1.100\
+    netmask 255.255.255.0\
+    network 192.0.0.0\
 <br>
 <br>
 
 ## To Connect Raspberrypi with WIFI WPA2 when Raspberrypi is 
 copy the below code to /etc/wpa_supplicant.conf/wpa_supplicant.conf and change the WIFI credentials SSID and Psdkey<br>
 
-country=IN<br>
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev<br>
-network={<br>
-    ssid="<SSID>"<br>
-    psk="<PASSWORD>"<br>
-    key_mgmt=WPA-PSK<br>
-    proto=RSN
-    pairwise=CCMP<br>
-    auth_alg=OPEN<br>
-}<br>
+country=IN\
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev\
+network={\
+    ssid="<SSID>"\
+    psk="<PASSWORD>"\
+    key_mgmt=WPA-PSK\
+    proto=RSN\
+    pairwise=CCMP\
+    auth_alg=OPEN\
+}\
 <br>
 Alternate Method create wpa_supplicant.conf file and ssh file in the bootfs partition of your rpi and paste the above code int wpa_supplicant.conf and Boot.<br>
