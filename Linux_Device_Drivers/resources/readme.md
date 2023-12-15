@@ -19,7 +19,7 @@ Kill Process : kill -9 -1
 copy the below code to rootfs/etc/network/interfaces<br>
 
 auto eth0\
-</t>    iface eth0 inet static\
+\t  iface eth0 inet static
     address 192.168.1.100\
     netmask 255.255.255.0\
     network 192.0.0.0\
