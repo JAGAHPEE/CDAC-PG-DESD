@@ -13,7 +13,7 @@
 
 /* Meta Information */
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Johannes 4 GNU/Linux");
+MODULE_AUTHOR("DJ");
 MODULE_DESCRIPTION("A simple example for ioctl in a LKM");
 
 
