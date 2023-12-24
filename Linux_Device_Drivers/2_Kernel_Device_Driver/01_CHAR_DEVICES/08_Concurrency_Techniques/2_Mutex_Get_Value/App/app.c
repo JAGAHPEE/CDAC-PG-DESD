@@ -1,3 +1,8 @@
+/*
+ * Published by : Sandesh Kale
+ * LinkedIn     : https://www.linkedin.com/in/sandesh-s-kale
+ * github       : https://github.com/JAGAHPEE
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
