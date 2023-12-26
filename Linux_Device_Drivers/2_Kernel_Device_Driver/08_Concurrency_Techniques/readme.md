@@ -6,7 +6,7 @@
          4. Lock the shared resource when write operation is done by the user write application.
          5. Unlock only when the read operation is done by the user read application to get the Sum of Numbers.    
 #### 2.  Mutex [GO](../08_Concurrency_Techniques/2_Mutex_Get_Value/)
-         1.  Create Character Driver 
+         1. Create Character Driver 
          2. Use Mutex for shared resources to perform addition of two number.
          3. Take values from the two user write applications.
          4. Lock the shared resource when write operation is done by the user write application.
