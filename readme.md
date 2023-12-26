@@ -32,3 +32,7 @@
 ### 7. [THREAD_MODELS](/Operating_System/7_THREAD_MODEL)
 ### 8. [IPC](/Operating_System/8_IPC/readme.md)
 ### 9. [SOCKET](/Operating_System/9_SOCKET/readme.md)
+![](resources/images/device_driver.png)
+## [Module - 4](/Linux_Device_Drivers/readme.md)Linux Device Drivers
+### 1. [1_Kernel_Module](/Linux_Device_Drivers/readme.md)
+### 1. [2_Kernel_Device_Driver](/Linux_Device_Drivers/readme.md)
