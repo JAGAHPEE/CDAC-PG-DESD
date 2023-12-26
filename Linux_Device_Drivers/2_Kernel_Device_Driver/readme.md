@@ -6,9 +6,9 @@
 #### 5. IOCTL Input Output Control Mechanism to hardware. [GO](../2_Kernel_Device_Driver/05_ioctl/)
 #### 6. Wait Queues Implememtation using Kernel Threads. [GO](../2_Kernel_Device_Driver/06_Wait_Queue/)
 #### 7. Character Device Driver by creating device node automatically using 'struct class' and 'device_create' and R/W operations by user application. [GO](../2_Kernel_Device_Driver/07_Char_Device_Driver_with_fs_auto/)
-#### 8. Concurrency Techniques like Semaphore, Mutex, Completion. [GO](../2_Kernel_Device_Driver/08_Concurrency_Techniques/)
-#### 9. Timers in Kernel. [GO](../2_Kernel_Device_Driver/09_Timers/)
-#### 10. GPIO in Raspberry-Pi. [GO](../2_Kernel_Device_Driver/10_GPIO/)
+#### 8. Concurrency Techniques like Semaphore, Mutex, Completion. [GO](../2_Kernel_Device_Driver/08_Concurrency_Techniques/readme.md)
+#### 9. Timers in Kernel. [GO](../2_Kernel_Device_Driver/09_Timers/readme.md)
+#### 10. GPIO in Raspberry-Pi. [GO](../2_Kernel_Device_Driver/10_GPIO/readmd.md)
 
 
 
