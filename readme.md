@@ -1,5 +1,5 @@
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JAGAHPEE&theme=tokyonight) 
 # CDAC-PG-DESD<br>
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JAGAHPEE&theme=tokyonight) 
 ![](resources/images/c.png)
 ## [Module - 1](/C_Program) C Programming <br>
 ![](resources/images/DSA.png)
@@ -37,4 +37,3 @@
 ## [Module - 5](/Linux_Device_Drivers/readme.md) Linux Device Drivers
 ### 1. [1_Kernel_Module](/Linux_Device_Drivers/readme.md)
 ### 1. [2_Kernel_Device_Driver](/Linux_Device_Drivers/readme.md)
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JAGAHPEE)]()
