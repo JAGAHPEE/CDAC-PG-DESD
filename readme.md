@@ -36,4 +36,4 @@
 ## [Module - 5](/Linux_Device_Drivers/readme.md) Linux Device Drivers
 ### 1. [1_Kernel_Module](/Linux_Device_Drivers/readme.md)
 ### 1. [2_Kernel_Device_Driver](/Linux_Device_Drivers/readme.md)
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JAGAHPEE)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JAGAHPEE)]()
