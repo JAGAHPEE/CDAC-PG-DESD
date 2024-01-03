@@ -1,5 +1,5 @@
 /* Implementation of Counting Semaphore */
-/* Create Four Task and only two task can access simultaneously */
+/* Create Five Task and only two task can access simultaneously */
 #include"freertos/FreeRTOS.h"
 #include"freertos/task.h"
 #include"freertos/semphr.h"
