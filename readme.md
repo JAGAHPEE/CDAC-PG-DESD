@@ -1,5 +1,5 @@
 # CDAC-PG-DESD<br>
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JAGAHPEE&theme=tokyonight) 
+
 ![](resources/images/c.png)
 ## [Module - 1](/C_Program) C Programming <br>
 ![](resources/images/DSA.png)
