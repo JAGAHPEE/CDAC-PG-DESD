@@ -70,4 +70,4 @@
                 vTaskDelay(pdMS_TO_TICKS())
                 vTaskDelay(msec/portTICK_PERIOD_MS)
 #### 07. Resource [GO](./resource/readme.md)
-		    2 Mini Tasks on Timer, Task and Message Buffer. 
+			2 Mini Tasks on Timer, Task and Message Buffer. 
