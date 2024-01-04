@@ -37,3 +37,13 @@
 ## [Module - 5](/Linux_Device_Drivers/readme.md) Linux Device Drivers
 ### 1. [1_Kernel_Module](/Linux_Device_Drivers/readme.md)
 ### 1. [2_Kernel_Device_Driver](/Linux_Device_Drivers/readme.md)
+
+![](resources/images/device_driver.png)
+## [Module - 6](/RTOS/readme.md) Real Time Operating System
+### 1. [Hello_RTOS](/RTOS/readme.md)
+### 2. [Task](/RTOS/readme.md)
+### 3. [Task_Delay](/RTOS/readme.md)
+### 4. [Task_Suspend_Resume](/RTOS/readme.md)
+### 5. [Timer](/RTOS/readme.md)
+### 6. [Semaphore](/RTOS/readme.md)
+### 7. [IPC](/RTOS/readme.md)
