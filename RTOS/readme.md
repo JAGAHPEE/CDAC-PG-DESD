@@ -50,7 +50,7 @@
                 xSemaphoreGive()
                 vTaskDelay(pdMS_TO_TICKS())
 
-#### 07. IPC's [GO](./10_IPC/readme.md)
+#### 07. IPC's [GO](./10_IPC/)
             Create Message Queues, Message Buffer, Stream Buffer. 
             API:
                 xTaskCreatePinnedToCore()
