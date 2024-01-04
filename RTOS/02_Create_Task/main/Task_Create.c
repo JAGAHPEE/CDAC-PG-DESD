@@ -14,8 +14,8 @@ void task_function(void *data)
 {
 	printf("Task Executed\n");
 	UBaseType_t t1_p;
+	t1_p = uxTaskPriorityGet(my_task_handle);
 	printf("Priority Number: %d \n",t1_p);
-	t1_p = uxTaskPriorityGet(task_1);
 	vTaskDelete(NULL);
 }
 
