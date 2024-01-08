@@ -29,7 +29,7 @@
                 vTaskResume()
 		        vTaskSuspend()
 
-#### 05. Timers [GO](./07_Timer/readme.md)
+#### 05. Timers [GO](./07_Timer/)
             One Shot Timer and Free Running Timer (pdFALSE/pdTRUE)
             API:
                 xTaskCreate()
